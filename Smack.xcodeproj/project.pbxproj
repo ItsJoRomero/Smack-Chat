@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E05352D1F48A92B00178462 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05352C1F48A92B00178462 /* UserDataService.swift */; };
 		1E1185F11F3FB17400083069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1185F01F3FB17400083069 /* AppDelegate.swift */; };
 		1E1185F61F3FB17400083069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1185F41F3FB17400083069 /* Main.storyboard */; };
 		1E1185F81F3FB17400083069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1185F71F3FB17400083069 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E05352C1F48A92B00178462 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		1E1185ED1F3FB17400083069 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1185F01F3FB17400083069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E1185F51F3FB17400083069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				1E419D061F40FDD30039C009 /* AuthService.swift */,
+				1E05352C1F48A92B00178462 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				1E11860A1F3FBF1F00083069 /* ChatVC.swift in Sources */,
 				1E179FF91F428D7B008A1A01 /* RoundedButton.swift in Sources */,
 				1E11860C1F3FBF2E00083069 /* ChannelVC.swift in Sources */,
+				1E05352D1F48A92B00178462 /* UserDataService.swift in Sources */,
 				1E1186161F3FF22B00083069 /* CreateAccountVC.swift in Sources */,
 				1E419D071F40FDD30039C009 /* AuthService.swift in Sources */,
 				1E1186141F3FE60C00083069 /* LoginVC.swift in Sources */,
